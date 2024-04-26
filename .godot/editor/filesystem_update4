@@ -1,3 +1,11 @@
-res://menu.tscn
-res://global.gd
+res://Scenes/gui.tscn
 res://assets/fonts/theme.tres
+res://Scripts/gui.gd
+res://Scenes/menu.tscn
+res://Scenes/level.tscn
+res://Scenes/enemy.tscn
+res://Scenes/game_over.tscn
+res://Scenes/player.tscn
+res://Scenes/shot.tscn
+res://Scripts/player.gd
+res://Scripts/enemy.gd
