@@ -24,15 +24,20 @@ func _on_area_2d_area_entered(area) -> void:
 func _on_area_2d_body_entered(body) -> void:
 	if body is Player:
 		explosion_ctrl()
-		body.queue_free()
 		GLOBAL.credits -= 1
+		if GLOBAL.credits <= 0:
+			body.queue_free()
+		else:
+			return
+		
+		
 
 
 func _on_visible_on_screen_notifier_2d_screen_exited():
 	queue_free()
 
 func _on_audio_finished() -> void:
-	queue_free()
-	
 	if GLOBAL.credits <= 0:
+		queue_free()
 		get_tree().change_scene_to_file("res://Scenes/game_over.tscn")
+		

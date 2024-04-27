@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://cevkax6c3ykvk"]
+[gd_scene load_steps=11 format=3 uid="uid://cevkax6c3ykvk"]
 
 [ext_resource type="Script" path="res://Scripts/level.gd" id="1_3o71s"]
 [ext_resource type="AudioStream" uid="uid://cj7bduxoenlrd" path="res://assets/Audio/y2mate.com - Thirty Seconds To Mars  ATTACK.mp3" id="1_n0q0l"]
 [ext_resource type="PackedScene" uid="uid://d0r6ir7cykx45" path="res://Scenes/enemy.tscn" id="2_lbgcr"]
 [ext_resource type="Texture2D" uid="uid://ckk6yoj2qe0au" path="res://assets/images/bg-back.png" id="3_hxlqo"]
+[ext_resource type="PackedScene" uid="uid://dhq8trvkvetbe" path="res://Scenes/apple.tscn" id="3_mfvu7"]
 [ext_resource type="Texture2D" uid="uid://dn1owaq456cu2" path="res://assets/images/bg-stars.png" id="4_kptb4"]
 [ext_resource type="Texture2D" uid="uid://ckqgqhn8k8rm3" path="res://assets/images/bg-planet.png" id="5_sj462"]
 [ext_resource type="PackedScene" uid="uid://kf0vyyv25q68" path="res://Scenes/player.tscn" id="7_djw8u"]
@@ -18,6 +19,7 @@ point_count = 5
 [node name="Level" type="Node2D" groups=["Level"]]
 script = ExtResource("1_3o71s")
 enemy = ExtResource("2_lbgcr")
+apple = ExtResource("3_mfvu7")
 
 [node name="Settings" type="Node" parent="."]
 
@@ -27,6 +29,10 @@ autoplay = true
 
 [node name="Timer" type="Timer" parent="Settings"]
 wait_time = 0.92
+autostart = true
+
+[node name="Timer2" type="Timer" parent="Settings"]
+wait_time = 3.0
 autostart = true
 
 [node name="Background" type="Node" parent="."]
@@ -82,3 +88,4 @@ rotation = 1.55806
 [node name="GUI" parent="." instance=ExtResource("8_fvkbw")]
 
 [connection signal="timeout" from="Settings/Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Settings/Timer2" to="." method="_on_timer_2_timeout"]

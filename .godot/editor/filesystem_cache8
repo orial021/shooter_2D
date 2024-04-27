@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714166237
+::res://::1714180812
 icon.svg::CompressedTexture2D::7214354250791882850::1714141311::1714141321::1::::<><>::
 ::res://Addons/::1714143288
 ::res://assets/::1714156687
@@ -10,10 +10,11 @@ explosion.wav::AudioStreamWAV::7439711809500164221::1714158352::1714158356::1:::
 hit.wav::AudioStreamWAV::2976826731972532116::1714158352::1714158356::1::::<><>::
 shot 1.wav::AudioStreamWAV::2843837233512063995::1714158353::1714158356::1::::<><>::
 shot 2.wav::AudioStreamWAV::4502961871040460794::1714158353::1714158356::1::::<><>::
-::res://assets/fonts/::1714165534
+::res://assets/fonts/::1714172007
 nokiafc22.ttf::FontFile::2511328768365504017::1714144795::1714144795::1::::<><>::
-theme.tres::Theme::3850170308998092461::1714165534::0::1::::<><>::uid://bb1rhn5svwcf6::::res://assets/fonts/nokiafc22.ttf
-::res://assets/images/::1714163952
+theme.tres::Theme::3850170308998092461::1714172007::0::1::::<><>::uid://bb1rhn5svwcf6::::res://assets/fonts/nokiafc22.ttf
+::res://assets/images/::1714169859
+apple.png::CompressedTexture2D::5488330499260892264::1714169859::1714169859::1::::<><>::
 bg-back.png::CompressedTexture2D::5497299417615067320::1714157534::1714157534::1::::<><>::
 bg-planet.png::CompressedTexture2D::5508153111750517376::1714157513::1714157513::1::::<><>::
 bg-preview-big.png::CompressedTexture2D::7215812741205893997::1714144858::1714144858::1::::<><>::
@@ -39,19 +40,22 @@ player3.png::CompressedTexture2D::5455645289292765491::1714158324::1714158324::1
 flash.png::CompressedTexture2D::2353347919279770589::1714160159::1714160159::1::::<><>::
 shoot1.png::CompressedTexture2D::4712978107667101498::1714158341::1714158341::1::::<><>::
 shoot2.png::CompressedTexture2D::4327617961751368593::1714158341::1714158341::1::::<><>::
-::res://Scenes/::1714165563
-enemy.tscn::PackedScene::8950975019430185828::1714165353::0::1::::<><>::res://Scripts/enemy.gd<>uid://sshybj1fnaqe::::res://assets/images/Enemies/enemy1.png<>uid://bcsnvjjw0droy::::res://assets/images/Enemies/enemy2.png<>uid://cyrpbv4iwtac3::::res://assets/images/Enemies/enemy3.png<>uid://j27h3amg3qa5::::res://assets/images/Enemies/enemy4.png<>uid://bon6q02dn5osg::::res://assets/images/Enemies/enemy5.png<>uid://crehrfpl06eb2::::res://assets/images/Explosion/explosion1.png<>uid://cv82vn77oh87l::::res://assets/images/Explosion/explosion2.png<>uid://cf0da0cebqw43::::res://assets/images/Explosion/explosion3.png<>uid://b84gcxehj7uyq::::res://assets/images/Explosion/explosion4.png<>uid://3a20kfc4lwxm::::res://assets/images/Explosion/explosion5.png<>uid://dd8374lfrmd2l::::res://assets/Audio/Sound FX/explosion.wav
-game_over.tscn::PackedScene::8859600318336212538::1714165353::0::1::::<><>::uid://bu4b0ikeoxsy4::::res://assets/fonts/theme.tres<>res://Scripts/game_over.gd
-gui.tscn::PackedScene::503694342085552400::1714165563::0::1::::<><>::
-level.tscn::PackedScene::5097557100756485628::1714165353::0::1::::<><>::res://Scripts/level.gd<>uid://cj7bduxoenlrd::::res://assets/Audio/y2mate.com - Thirty Seconds To Mars  ATTACK.mp3<>uid://d0r6ir7cykx45::::res://Scenes/enemy.tscn<>uid://ckk6yoj2qe0au::::res://assets/images/bg-back.png<>uid://dn1owaq456cu2::::res://assets/images/bg-stars.png<>uid://ckqgqhn8k8rm3::::res://assets/images/bg-planet.png<>uid://kf0vyyv25q68::::res://Scenes/player.tscn
-menu.tscn::PackedScene::97123769720694556::1714165353::0::1::::<><>::uid://bu4b0ikeoxsy4::::res://assets/fonts/theme.tres<>res://Scripts/menu.gd<>uid://c8asly32edegc::::res://assets/images/bg-preview.png
-player.tscn::PackedScene::713767050268920255::1714165353::0::1::::<><>::res://Scripts/player.gd<>uid://bnsbflnllr0y5::::res://assets/images/Player/player2.png<>uid://prfooqar0w7m::::res://assets/images/Player/player1.png<>uid://cjy0xfbsglrjf::::res://assets/images/Player/player3.png<>uid://8r8kcv12i4ld::::res://assets/images/shoot/flash.png<>uid://bgrtt32s7whff::::res://assets/Audio/Sound FX/shot 1.wav
-shot.tscn::PackedScene::681312641759370739::1714165353::0::1::::<><>::res://Scripts/shot.gd<>uid://b8faccl8qnlf3::::res://assets/images/shoot/shoot1.png<>uid://b2wliaklq5lxh::::res://assets/images/shoot/shoot2.png
-::res://Scripts/::1714165352
-enemy.gd::GDScript::-1::1714164771::0::1::::<>Node2D<>::
+::res://Scenes/::1714172008
+apple.tscn::PackedScene::7685652517276414306::1714172008::0::1::::<><>::res://Scripts/apple.gd<>uid://ckguabxxl3kei::::res://assets/images/apple.png
+enemy.tscn::PackedScene::8950975019430185828::1714172008::0::1::::<><>::res://Scripts/enemy.gd<>uid://sshybj1fnaqe::::res://assets/images/Enemies/enemy1.png<>uid://bcsnvjjw0droy::::res://assets/images/Enemies/enemy2.png<>uid://cyrpbv4iwtac3::::res://assets/images/Enemies/enemy3.png<>uid://j27h3amg3qa5::::res://assets/images/Enemies/enemy4.png<>uid://bon6q02dn5osg::::res://assets/images/Enemies/enemy5.png<>uid://crehrfpl06eb2::::res://assets/images/Explosion/explosion1.png<>uid://cv82vn77oh87l::::res://assets/images/Explosion/explosion2.png<>uid://cf0da0cebqw43::::res://assets/images/Explosion/explosion3.png<>uid://b84gcxehj7uyq::::res://assets/images/Explosion/explosion4.png<>uid://3a20kfc4lwxm::::res://assets/images/Explosion/explosion5.png<>uid://dd8374lfrmd2l::::res://assets/Audio/Sound FX/explosion.wav
+game_over.tscn::PackedScene::8859600318336212538::1714172007::0::1::::<><>::uid://bu4b0ikeoxsy4::::res://assets/fonts/theme.tres<>res://Scripts/game_over.gd
+gui.tscn::PackedScene::503694342085552400::1714172007::0::1::::<><>::res://Scripts/gui.gd<>uid://bu4b0ikeoxsy4::::res://assets/fonts/theme.tres
+level.tscn::PackedScene::5097557100756485628::1714172007::0::1::::<><>::res://Scripts/level.gd<>uid://cj7bduxoenlrd::::res://assets/Audio/y2mate.com - Thirty Seconds To Mars  ATTACK.mp3<>uid://d0r6ir7cykx45::::res://Scenes/enemy.tscn<>uid://ckk6yoj2qe0au::::res://assets/images/bg-back.png<>uid://dhq8trvkvetbe::::res://Scenes/apple.tscn<>uid://dn1owaq456cu2::::res://assets/images/bg-stars.png<>uid://ckqgqhn8k8rm3::::res://assets/images/bg-planet.png<>uid://kf0vyyv25q68::::res://Scenes/player.tscn<>uid://hf81ixqbpjmm::::res://Scenes/gui.tscn
+menu.tscn::PackedScene::97123769720694556::1714172007::0::1::::<><>::uid://bu4b0ikeoxsy4::::res://assets/fonts/theme.tres<>res://Scripts/menu.gd<>uid://c8asly32edegc::::res://assets/images/bg-preview.png
+player.tscn::PackedScene::713767050268920255::1714172008::0::1::::<><>::res://Scripts/player.gd<>uid://bnsbflnllr0y5::::res://assets/images/Player/player2.png<>uid://jybeclpwt24v::::res://Scenes/shot.tscn<>uid://prfooqar0w7m::::res://assets/images/Player/player1.png<>uid://cjy0xfbsglrjf::::res://assets/images/Player/player3.png<>uid://8r8kcv12i4ld::::res://assets/images/shoot/flash.png<>uid://bgrtt32s7whff::::res://assets/Audio/Sound FX/shot 1.wav
+shot.tscn::PackedScene::681312641759370739::1714172008::0::1::::<><>::res://Scripts/shot.gd<>uid://b8faccl8qnlf3::::res://assets/images/shoot/shoot1.png<>uid://b2wliaklq5lxh::::res://assets/images/shoot/shoot2.png
+::res://Scripts/::1714171481
+apple.gd::GDScript::-1::1714171115::0::1::::<>Node2D<>::
+enemy.gd::GDScript::-1::1714167920::0::1::::<>Node2D<>::
 game_over.gd::GDScript::-1::1714165352::0::1::::<>Control<>::
 global.gd::GDScript::-1::1714161989::0::1::::<>Node<>::
-level.gd::GDScript::-1::1714161243::0::1::::<>Node2D<>::
+gui.gd::GDScript::-1::1714169134::0::1::::<>CanvasLayer<>::
+level.gd::GDScript::-1::1714170739::0::1::::<>Node2D<>::
 menu.gd::GDScript::-1::1714156571::0::1::::<>Control<>::
-player.gd::GDScript::-1::1714164771::0::1::::Player<>CharacterBody2D<>::
+player.gd::GDScript::-1::1714171481::0::1::::Player<>CharacterBody2D<>::
 shot.gd::GDScript::-1::1714163633::0::1::::<>Area2D<>::

@@ -1,6 +1,7 @@
 extends Node2D
 
 @export var enemy : PackedScene
+@export var apple : PackedScene
 
 func _ready() -> void:
 	GLOBAL.score = 0
@@ -23,3 +24,8 @@ func _on_timer_timeout():
 	var enemy_instance = enemy.instantiate()
 	enemy_instance.global_position = $PathSpawn/PathFollow.global_position
 	add_child(enemy_instance)
+
+func _on_timer_2_timeout():
+	var apple_instance = apple.instantiate()
+	apple_instance.global_position = $PathSpawn/PathFollow.global_position
+	add_child(apple_instance)

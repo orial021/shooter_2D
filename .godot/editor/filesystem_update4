@@ -1,11 +1,11 @@
-res://Scenes/gui.tscn
-res://assets/fonts/theme.tres
-res://Scripts/gui.gd
 res://Scenes/menu.tscn
+res://assets/fonts/theme.tres
 res://Scenes/level.tscn
-res://Scenes/enemy.tscn
 res://Scenes/game_over.tscn
+res://Scenes/gui.tscn
 res://Scenes/player.tscn
 res://Scenes/shot.tscn
-res://Scripts/player.gd
+res://Scenes/enemy.tscn
+res://Scenes/apple.tscn
 res://Scripts/enemy.gd
+res://Scripts/game_over.gd

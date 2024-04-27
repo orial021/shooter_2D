@@ -6,10 +6,6 @@ class_name Player
 const SPEED = 80
 
 
-func _ready():
-	pass # Replace with function body.
-
-
 func _process(delta):
 	anim_ctrl()
 	motion_ctrl()
