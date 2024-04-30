@@ -17,7 +17,7 @@ func _process(delta) -> void:
 func parallax_bg(delta_time) -> void:
 	$Background/Back.scroll_base_offset -= Vector2(1, 0) * 8 * delta_time
 	$Background/Stars.scroll_base_offset -= Vector2(1, 0) * 16 * delta_time
-	$Background/Planet_1.scroll_base_offset -= Vector2(1, 0) * 20 * delta_time
+	$Background/Planet_1.scroll_base_offset -= Vector2(1, 0) * 24 * delta_time
 	$Background/Planet_2.scroll_base_offset -= Vector2(1, 0) * 24 * delta_time
 
 func _on_timer_timeout():

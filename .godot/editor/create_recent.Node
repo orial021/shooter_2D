@@ -1,7 +1,8 @@
+AnimationPlayer
+AnimatedSprite2D
 Timer
 VisibleOnScreenNotifier2D
 CollisionShape2D
-AnimatedSprite2D
 Area2D
 MarginContainer
 Label
@@ -11,5 +12,3 @@ HBoxContainer
 VBoxContainer
 ColorRect
 AudioStreamPlayer2D
-PathFollow2D
-Marker2D

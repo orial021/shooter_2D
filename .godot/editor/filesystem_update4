@@ -1,5 +1,6 @@
 res://Scenes/menu.tscn
 res://assets/fonts/theme.tres
+res://Scripts/menu.gd
 res://Scenes/level.tscn
 res://Scenes/game_over.tscn
 res://Scenes/gui.tscn
@@ -7,5 +8,3 @@ res://Scenes/player.tscn
 res://Scenes/shot.tscn
 res://Scenes/enemy.tscn
 res://Scenes/apple.tscn
-res://Scripts/enemy.gd
-res://Scripts/game_over.gd
